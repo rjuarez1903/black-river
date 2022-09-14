@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Icon -->
+  <link rel="icon" href="images/blackRiver.ico">
+  
+  <!-- CSS Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- CSS Propio -->
+  <link rel="stylesheet" href="estilos.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;600;900&family=Roboto&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/2cd05a3c76.js" crossorigin="anonymous"></script>
+
+  <!-- JS propio -->
+  <script type="text/javascript" src="js/unidad7.js"></script>
+
+  <!-- Title -->
+  <title>BLACK RIVER RECORDS</title>
+</head>
+<body>
+
+  <!-- Header -->
+    <header>
+      <div id="marca">
+        <img src="images/logo.png" alt="Black River Records">
+      </div>
+      <div id="blackRiver">
+        <h1>BLACK RIVER RECORDS</h1>
+      </div>
+      <nav id="botonera">
+        <ul>
+          <li><a href="#inicio">Inicio</a><li><a href="#bandas">Bandas</a></li><li><a href="#carreras">Carreras</a></li><li><a href="#cursos">Cursos</a></li><li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Section 1 -->
+    <section id="inicio">
+      <div id="seccion1__box1">
+        <h2>LA <span class="red">MEJOR ESCUELA ONLINE</span> PARA <span class="red">PRODUCTORES</span> DE ROCK Y METAL.</h2>
+        <p>Nuestra extensa librería educativa está orientada a productores de todos los niveles, desde nuestra carrera, <strong>Audio para Principiantes</strong>, hasta <strong>Mezclas Extremas.</strong></p>
+        <p><em>¡Seguí scrolleando para más detalles!</em></p>
+      </div>
+      <div id="seccion1__box2"></div>
+      <div id="seccion1__box3"></div>
+    </section>
+
+    <!-- Section 2 -->
+    <section id="bandas">
+      <div id="bandas__box1">
+        <h3 class="red">Aprendé a mezclar con los mejores de la industria</h3>
+        <p>De forma mensual, vas a tener acceso a sesiones multipista de los mejores artistas de Argentina, y un streaming del productor que haya realizado la mezcla.</p>
+      </div>
+      <div id="bands_container">
+        <div id="bandas__box2" class="style-bandas">
+          <div class="bandas_text">
+            <h4 class="red">ENERO 2022</h4>
+            <p>ARDE LA SANGRE</p>
+          </div>
+        </div>
+        <div id="bandas__box3" class="style-bandas">
+          <div class="bandas_text">
+            <h4 class="red">DICIEMBRE 2021</h4>
+            <p>PLAN 4</p>
+          </div>
+        </div>
+        <div id="bandas__box4" class="style-bandas">
+          <div class="bandas_text">
+            <h4 class="red">NOVIEMBRE 2021</h4>
+            <p>HORCAS</p>
+          </div>
+        </div>
+        <div id="bandas__box5" class="style-bandas">
+          <div class="bandas_text">
+            <h4 class="red">OCTUBRE 2021</h4>
+            <p>RAMEN</p>
+          </div>
+        </div>
+        <div id="bandas__box6" class="style-bandas">
+          <div class="bandas_text">
+            <h4 class="red">SEPTIEMBRE 2021</h4>
+            <p>ERUCA SATIVA</p>
+          </div>
+        </div>
+        <div id="bandas__box7" class="style-bandas">
+          <div class="bandas_text">
+            <h4 class="red">AGOSTO 2021</h4>
+            <p>A.N.I.M.A.L.</p>
+          </div>
+        </div>
+      </div>
+      <div id="separador">
+        <p id="separador__p">...Y MUCHAS MÁS</p>
+      </div>
+    </section>
+
+    <!-- Section 3 CARRERAS -->
+    <section id="carreras">
+      <div id="seccion3__box1">
+        <h2 id="carers">CARRERAS</h2>
+      </div>
+      <div id="courses_container">
+          <div id="description_carers">
+           <h3>¿Querés subir tu nivel?</h3>
+          <p>Nuestro contenido premium orientado a los más exigentes. Más de 50 horas de contenido en video y la posibilidad de agendar clases individuales vía Zoom.</p>
+          </div>
+        <a href="#career1" onclick="mostrar('course1')">
+          <div id="career1">
+            <div id="course1" style="display:none">
+              <i class="fa-solid fa-headphones fa-2xl"></i>
+              <h2 class="yellow">AUDIO PARA PRINCIPIANTES</h3>
+              <p>Esta carrera es para vos si tenés poca experiencia en procesos de producción musical. Vas a aprender a grabar, mezclar y masterizar desde cero.</p>
+            </div>
+          </div>
+        </a>
+        <a href="#career2" onclick="mostrar('course2')">
+          <div id="career2">
+            <div id="course2" style="display:none">
+              <i class="fa-solid fa-headphones fa-2xl"></i>
+              <h2 class="yellow">MEZCLAS EXTREMAS</h2>
+              <p>¿Sos un productor experimentado? Este carrera te va a permitir afianzar tus conocimientos y alcanzar un nivel profesional de alta calidad.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div id="promote-container" class="container-fluid">
+        <div id="promote_module_cont" class="row">
+          <div id="promote1" class=col-lg-4>
+            <h2 class="h3"><em>COLECCIÓN DE PISTAS</em></h2>
+            <p>50+ horas de tutoriales</p>
+          </div>
+          <div id="promote2" class=col-lg-4>
+            <h2 class="h3"><em>FEEDBACK INDIVIDUAL</em></h2>
+            <p>Videollamadas por Zoom con nuestros instructores</p>
+          </div>
+          <div id="promote3" class=col-lg-4>
+            <h2 class="h3"><em>SUPERVISIÓN DE MEZCLAS</em></h2>
+            <p>¡Mandá tus mezclas para revisión!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4 CURSOS -->
+    <section id="cursos">
+      <h2 id="cursos-style">CURSOS</h2>
+      <div id="cursos_box" class="container-fluid ">
+        <h3 class="red">Cursos de producción musical</h3>
+        <p>Nuestros cursos explorar en profundidad las herramientas indispensables que exige el mercado, enseñando EN PROFUNDIDAD a manejar dichos recursos.</p>
+        <div class="row" id="modulo1_cont">
+          <div id="curso1" class="col-lg-6">
+            <!-- Bootstrap CARD -->
+            <div class="card bg-card" style="width: 100%;">
+              <img src="images/logicProX.png" class="card-img-top" alt="Logic Pro X">
+              <div class="card-body">
+                <h5 class="card-title txt-card-title">INTRODUCCIÓN A LOGIC PRO X</h5>
+                <p class="card-text txt-card">Curso desde cero para aquellos que se inician con Logic Pro X, uno de los DAWs más utilizados del mercado.</p>
+                <a href="#masInfo1" class="btn btn-style" data-bs-toggle="modal" data-bs-target="#masInfo1">Más info</a>
+              </div>
+            </div>
+            <!-- Bootstrap CARD fin -->
+            <!-- Modal Bootstrap -->
+            <div class="modal fade" id="masInfo1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content bg-card">
+                  <div class="modal-header">
+                    <h5 class="modal-title red" id="staticBackdropLabel">INTRODUCCIÓN A LOGIC PRO X</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>En este curso vas a aprender todos los fundamentos, bases, técnicas, ejemplos y tips imprescindibles para sentirte cómodo manejando este DAW.</p>
+                    <p class="yellow-400">Contenidos</p>
+                    <ul>
+                      <li>Configuración</li>
+                      <li>Curso básico</li>
+                      <li>Producción</li>
+                      <li>Pre-Mezcla</li>
+                      <li>Grabación de Audio</li>
+                    </ul>
+                    <img src="images/studioLogicProX.jpeg" alt="Logic Pro X Curso" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal Bootstrap fin -->
+          </div>
+          <div id="curso2" class="col-lg-6">
+            <!-- Bootstrap CARD -->
+            <div class="card bg-card" style="width: 100%;">
+              <img src="images/drumProgramming.jpeg" class="card-img-top" alt="Programación de Baterías">
+              <div class="card-body txt-card-title">
+                <h5 class="card-title">PROGRAMACIÓN DE BATERÍAS</h5>
+                <p class="card-text txt-card">La programación de baterías se ha convertido en una herramienta indispensable para el productor moderno. Dominala.</p>
+                <a href="#masInfo2" class="btn btn-style" data-bs-toggle="modal" data-bs-target="#masInfo2">Más info</a>
+              </div>
+            </div>
+            <!-- Bootstrap CARD fin -->     
+            <!-- Modal Bootstrap -->
+            <div class="modal fade" id="masInfo2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content bg-card">
+                  <div class="modal-header">
+                    <h5 class="modal-title red" id="staticBackdropLabel">PROGRAMACIÓN DE BATERÍAS</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>En este curso vamos a revisar cada módulo de Superior Drummer 3, desde sus funciones más básicas, a trucos y funciones avanzadas que poca gente conoce, para que puedas crear tus propios ritmos y sonidos que mejor encajen en tus producciones.</p>
+                    <p class="yellow-400">Contenidos</p>
+                    <ul>
+                      <li>Construcción de kits</li>
+                      <li>Workflow</li>
+                      <li>Modificadores y efectos</li>
+                      <li>Mezcla orientada al Metal</li>
+                      <li>Ruteo de mics</li>
+                    </ul>
+                    <img src="images/superiorDrummer.jpeg" alt="Superior Drummer 3" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal Bootstrap fin -->       
+          </div>
+        </div>  
+        <div id="faq" class="col-lg-12">
+          <h2>Preguntas Frecuentes</h2>
+          <!-- Bootstrap Accordion -->
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item btn-style">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  ¿Necesito conocimientos previos para inscribirme en los cursos?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>No hace falta que tengas conocimientos previos sobre producción musical, pero en tal caso, te recomendamos que comiences por nuestra carrera <strong>Audio para Principiantes</strong> o nuestro curso introductorio de Logic Pro X.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item btn-style">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  ¿Hace falta saber algo de teoría musical?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>No, nuestras carreras y cursos no requieren de conocimientos previos sobre teoría musical. De todas maneras, en el caso de que tengas algunas bases, ciertos conceptos te van a resultar más accesibles.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item btn-style">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  ¿Cuándo comienza cada carrera y/o curso?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>En ambos casos, ofrecemos la posibilidad de comenzar <em>inmediatamente</em> luego de que se acredite el pago. Hay tanto clases asincrónicas como sincrónicas, las cuales van a a coordinarse con cada docente en particular.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item btn-style">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  ¿Se aplican descuentos en caso de realizar más de un curso y/o carrera?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Por favor, dejanos tu consulta en el siguiente formulario y en breve nos vamos a poner en contacto para asistirte de forma más personal al respecto.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Bootstrap Accordion fin -->
+        </div>
+        <!-- Formulario de Contacto -->
+        <div class="row" id="modulo2_cont">  
+          <div id="contacto" class="col-lg-12">
+            <form>
+              <h2>Contacto <i class="fa-regular fa-envelope"></i></h2> 
+              <input type="text" name="nombre" class="form-control" placeholder="Nombre y Apellido" required maxlength="40">
+              <input type="email" name="correo" class="form-control" placeholder="Correo electrónico" required>
+              <textarea name="consulta" class="form-control" placeholder="Consulta" rows="5" required></textarea>
+              <input type="submit" class="btn btn-style">
+            </form>
+          </div>
+          <!-- Formulario de Contacto FIN -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5 -->
+    <section id="seccion5">
+      <div id="seccion5__box">
+        <script type="text/javascript">
+          document.write('<h2 class="red">GRACIAS POR VISITARNOS, '+nombreUsuario.toUpperCase()+'</h2>')
+          document.write('<p>Parece que tenés buen gusto. En <strong>BLACK RIVER RECORDS</strong> somos muchos los fanáticos de '+bandaPreferida+'. </p>')
+          document.write('<p>Una vez que finalices nuestros cursos, vas a estar mezclando y grabando tan bien como '+productorPreferido+'.</p>')
+          document.write('<p>Vas a manejar '+dawPreferido+' y cualquier otro DAW de tu preferencia.</p>')
+          document.write('<p"><strong>Quién sabe, hasta tal vez te conviertas en el productor del "'+discoPreferido+'" de nuestra generación...<strong></p>')
+        </script>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="piedepagina">
+      <div id="pie1">
+        <div id="derechos">
+          <p id="derechos__p">© BLACK RIVER RECORDS LLC. All rights reserved.</p>
+        </div>  
+      </div>
+      <div id="redes">
+        <div id="social">
+          <a href="http://www.instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram" id="insta"></a><a href="http://www.facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook" id="face"></a><a href="http://www.youtube.com" target="_blank"><img src="images/youtube.png" alt="YouTube" id="youTube"></a>
+        </div>
+      </div>
+    </footer>
+   
+    <!-- JS propio -->
+    <script type="text/javascript" src="js/unidad8.js"></script>
+
+    <!-- JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

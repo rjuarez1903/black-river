@@ -1,0 +1,5 @@
+var nombreUsuario = prompt("¿Cuál es tu nombre?")
+var bandaPreferida = prompt("¿Cuál es tu banda preferida?")
+var dawPreferido = prompt("¿Qué DAW usás para tus producciones?")
+var productorPreferido = prompt("¿Cuál es tu productor preferido?")
+var discoPreferido = prompt("¿Cuál es tu disco preferido?")
